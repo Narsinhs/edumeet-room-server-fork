@@ -241,7 +241,7 @@ export default class ServerManager {
       if (peer?.managedId) this.managedPeers.delete(peer.managedId);
     });
     fetch(
-      "https://117b-2001-8f8-1135-4527-7117-7cac-571d-198d.ngrok-free.app/test",
+      "https://aa0c-2001-8f8-1135-4527-7117-7cac-571d-198d.ngrok-free.app",
       {
         method: "POST",
         body: JSON.stringify({
