@@ -29,7 +29,7 @@ export const createJoinMiddleware = ({ room }: { room: Room; }): Middleware<Peer
 					picture,
 				} = message.data;
 
-				peer.displayName = displayName;
+				peer.displayName = 'Hello123';
 				peer.picture = picture;
 
 				const lobbyPeers = peer.hasPermission(Permission.PROMOTE_PEER) ?
